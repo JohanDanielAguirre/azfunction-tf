@@ -144,3 +144,17 @@ Para eliminar la infraestructura creada, se puede utilizar:
 ```bash
 terraform destroy --var-file="dev.tfvars" -auto-approve
 ```
+
+## Capturas de pantalla
+Se realizo la inicializacion del terraform usando terraform init
+![img.png](img.png)
+posteriormente se creo un plan para el terraform usando terraform plan y se le dio un nombre al recusro a crear
+![img_1.png](img_1.png)
+despues se aplico el plan creado sobre este recurso, azure primero destruira una copia con el mismo nombre si existe
+y despues creara los recursos
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+verificamos en la pagina web que nos entrego el terraform
+![img_4.png](img_4.png)
+y verificamos en el azure portal que efectivamente se haya creado el recurso
+![img_5.png](img_5.png)
