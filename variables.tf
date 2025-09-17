@@ -28,3 +28,13 @@ variable "admin_password" {
   type    = string
   default = "P@ssw0rd1234!" # OJO: Para pruebas. Lo ideal es usar SSH keys
 }
+
+variable "basic_auth_username" {
+  type    = string
+  default = "user" # Temporal, reemplazar con KeyVault/vars seguras en prod
+}
+
+variable "basic_auth_password" {
+  type    = string
+  default = "password" # Temporal, reemplazar con KeyVault/vars seguras en prod
+}
