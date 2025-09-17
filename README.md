@@ -158,5 +158,3 @@ verificamos en la pagina web que nos entrego el terraform
 ![img_4.png](img_4.png)
 y verificamos en el azure portal que efectivamente se haya creado el recurso
 ![img_5.png](img_5.png)
-
-
